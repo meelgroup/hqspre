@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANARD_REQUIRED ON)
 #set(CMAKE_BUILD_TYPE "Debug")
 
 # Enforce static binaries and enable warnings
-set(CMAKE_EXE_LINKER_FLAGS "-static -Wall -Wextra ${CMAKE_EXE_LINKER_FLAGS} -g" )
+set(CMAKE_EXE_LINKER_FLAGS "-Wall -Wextra ${CMAKE_EXE_LINKER_FLAGS} -g" )
 set(CMAKE_C_FLAGS "-Wall -Wextra ${CMAKE_C_FLAGS} -g")
 set(CMAKE_CXX_FLAGS "-Wall -Wextra ${CMAKE_CXX_FLAGS} -g")
 
