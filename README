@@ -1,0 +1,26 @@
+Preprocessor for DQBF
+Version 1.0 (2016-10-21)
+
+Copyright 2016 by
+    Ralf Wimmer, Sven Reimer, Paolo Marin, Bernd Becker
+    Albert-Ludwigs-Universitaet Freiburg
+    Georges-Koehler-Allee 51
+    79110 Freiburg im Breisgau
+    Germany
+    wimmer@informatik.uni-freiburg.de (Ralf Wimmer)
+
+This program is released under the version 3 of the 
+GNU Lesser General Public License 
+(LGPLv3, see https://www.gnu.org/licenses/lgpl-3.0.en.html)
+
+
+This requires the Boost C++ libraries, in particular
+    boost-program_options
+    boost-iostreams
+
+
+After successful compilation, the subdirectory src contains the binary
+preprocess. Calling
+    ./src/preprocess -h
+prints the list of available command line options.
+
